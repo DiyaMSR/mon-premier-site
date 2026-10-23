@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, abort
+from flask import Flask, render_template, request, redirect, abort
 
 # ---------------------------------------------------------------
 #  Mon premier site Web avec Flask
