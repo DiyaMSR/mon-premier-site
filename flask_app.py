@@ -1,3 +1,5 @@
+from flask import Flask, render_template
+
 # ---------------------------------------------------------------
 #  Mon premier site Web avec Flask
 # ---------------------------------------------------------------
@@ -8,7 +10,6 @@
 #  Les consignes sont dans le dossier "exercices/".
 # ---------------------------------------------------------------
 
-from flask import Flask, render_template
 
 app = Flask(__name__)
 
